@@ -56,4 +56,38 @@
   font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
 }
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-basis: 50%;
+}
+.col--first-screen {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.first-screen {
+  position: relative;
+}
+.first-screen__bg {
+  position: relative;
+}
+.first-screen__bg-img {
+  position: relative;
+  z-index: 1;
+}
+.first-screen__ellipse {
+  position: absolute;
+  top: 0;
+  left: -63px;
+}
+.first-screen__rectangle {
+  position: absolute;
+  bottom: -96px;
+  right: 120px;
+}
 /*# sourceMappingURL=style.css.map */

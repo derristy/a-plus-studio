@@ -50,3 +50,42 @@
         }
     }
 }
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex-basis: 50%;
+
+    &--first-screen {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.first-screen {
+    position: relative;
+
+    &__bg {
+        position: relative;
+
+        &-img {
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    &__ellipse {
+        position: absolute;
+        top: 0;
+        left: -63px;
+    }
+
+    &__rectangle {
+        position: absolute;
+        bottom: -96px;
+        right: 120px;
+    }
+}
