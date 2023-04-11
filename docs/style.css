@@ -1,5 +1,59 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta Demo PE Cutted Demo";
+  src: url("assets/fonts/averta_demo_pe_cutted_demo_regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
 *, *:before, *:after {
   margin: 0;
   padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  margin: 42px 0 47px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav {
+  display: flex;
+}
+.navbar-nav__item {
+  list-style: none;
+  margin-right: 60px;
+}
+.navbar-nav__item:last-child {
+  margin-right: 0;
+}
+.navbar-nav__link {
+  text-decoration: none;
+  color: #000;
+  font-family: "Averta Demo PE Cutted Demo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.navbar-brand {
+  font-family: "Averta Demo PE Cutted Demo", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+  font-size: 27px;
+  line-height: 33px;
+}
+.navbar-brand span {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

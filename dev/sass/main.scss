@@ -2,3 +2,51 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin: 42px 0 47px 0;
+    display: flex;
+    justify-content: space-between;
+
+    &-nav {
+        display: flex;
+
+        &__item {
+            list-style: none;
+            margin-right: 60px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &__link {
+            text-decoration: none;
+            color: #000;
+            font-family: "Averta Demo PE Cutted Demo", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
+    &-brand {
+        font-family: "Averta Demo PE Cutted Demo", sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        color: #000;
+        font-size: 27px;
+        line-height: 33px;
+
+        & span {
+            font-family: "Proxima Nova", sans-serif;
+            font-weight: 700;
+        }
+    }
+}
