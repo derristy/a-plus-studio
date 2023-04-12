@@ -72,6 +72,7 @@
 
 .first-screen {
   position: relative;
+  height: 615px;
 }
 .first-screen__bg {
   position: relative;
@@ -89,5 +90,48 @@
   position: absolute;
   bottom: -96px;
   right: 120px;
+}
+.first-screen__content {
+  max-width: 471px;
+  position: relative;
+}
+.first-screen__dots {
+  position: absolute;
+  bottom: -121px;
+  left: -53px;
+  z-index: 1;
+}
+.first-screen__title {
+  font-family: "Averta Demo PE Cutted Demo", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  margin-top: 124px;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+.first-screen__subtitle {
+  font-family: "Averta Demo PE Cutted Demo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 33px;
+  color: #565656;
+  position: relative;
+  z-index: 2;
+}
+.first-screen__btn {
+  position: relative;
+  z-index: 2;
+  background: #2639ED;
+  border: none;
+  color: #fff;
+  border-radius: 60px;
+  font-family: "Averta Demo PE Cutted Demo", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 40px;
 }
 /*# sourceMappingURL=style.css.map */
